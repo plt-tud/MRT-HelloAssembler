@@ -1,5 +1,8 @@
 # MRT-HelloAssembler
 
+## Preparations
+To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its own repository and execute the installer script before continuing with this tutorial.
+
 ## Importing the project
   - To import the project, it is recommendable to create a folder *workspace* in the MRT-Environment folder. When you start Eclipse you can choose this filder as the workspace root.
   - Clone the MRT-HelloAssembler project directly into this workspace folder
