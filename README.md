@@ -42,3 +42,6 @@ Note: the Raspberry Pi must be on the same network (try pinging it using the *pi
   - In the Eclipse menu, open *Run/Debug Configurations...*.
   - Select the *HelloAssembler Auto Remote Debug* configuration.
   - On the *Main* tab, in the *Connection:* field, choose the just created connection.
+  
+### Step 4: Start remote debugging
+From the bug icon drop-down in the toolbar select *HelloAssembler Auto Remote Debug*.
