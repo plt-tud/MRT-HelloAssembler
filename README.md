@@ -26,13 +26,15 @@ Create the path */home/pi/remote-debugging/* on the RapberryPi.
      mkdir /home/pi/remote-debugging/ && chmod 777 /home/pi/remote-debugging/
      
 ### Step 2: Create the remote system connection
+This only needs to be done if the connection hasn't been created before.
+Note: the Raspberry Pi must be on the same network (try pinging it using the *ping* command from a console to verify).
 
   - In the eclipse menu, open *Window/Open Perspective/Other...*.
   - select *Remote System Explorer* (RSE).
   - Open the RSE perspective (upper right corner).
   - Define a connection to a remote system (first icon in the left panel).
   - In the new conncection assistant select *SSH Only*.
-  - Press *Next* and enter the IP-address of you Raspberry Pi in the *Host* field. Note: the Raspberry Pi must be on the same network (try pinging it using the *ping* command from a console to verify).
+  - Press *Next* and enter the IP-address of you Raspberry Pi in the *Host* field. 
   - In the *Name* field enter e.g. 'RemoteRPI'.
   - Switch back to the *C/C++* perspective.
     
