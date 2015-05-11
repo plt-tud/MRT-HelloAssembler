@@ -1,7 +1,7 @@
 # MRT-HelloAssembler
 
 ## Preparations
-To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its GitHub repository and execute the installer script before continuing with this tutorial.
+To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its own repository (git clone https://github.com/plt-tud/MRT-Environment-Setup.git) and execute the installer script before continuing with this tutorial.
 
 ## Compiling the project
 The project is compiled using a makefile. To be able to compile, the $P variable in Makefile must point to the directory with the arm cross-compilation tools. This should already be the case if the workspace is located inside the MRT-Environment folder. Otherwise, please adjust it. 
@@ -10,7 +10,6 @@ The project is compiled using a makefile. To be able to compile, the $P variable
 Before this project can be debugged remotely, you need to do some preparations:
 
 ### Step 1: Prepare the Raspberry Pi
-
 Create the path */home/pi/remote-debugging/* on the RapberryPi.
      mkdir /home/pi/remote-debugging/ && chmod 777 /home/pi/remote-debugging/
      
