@@ -1,20 +1,9 @@
 # MRT-HelloAssembler
 
 ## Preparations
-To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its own repository and execute the installer script before continuing with this tutorial.
-
-## Importing the project
-  - To import the project, it is recommendable to create a folder *workspace* in the MRT-Environment folder. When you start Eclipse you can choose this filder as the workspace root.
-  - Clone the MRT-HelloAssembler project directly into this workspace folder
-  - Choose *File/Import...* from the Eclipse Menu
-  - Choose *Existing Code as Makefile Project* from the C/C++ category
-  - Enter a project name (e.g. 'HelloAssembler') and pick the location where you have cloned the project
-  - Deselect *C* and *C++* checkboxes
-  - As a Tool chain select *Cross GCC*
-  - Press Finish 
+To be able to easily use this project, the MRT-Environment must be set up first. Please clone it from its GitHub repository and execute the installer script before continuing with this tutorial.
 
 ## Compiling the project
-
 The project is compiled using a makefile. To be able to compile, the $P variable in Makefile must point to the directory with the arm cross-compilation tools. This should already be the case if the workspace is located inside the MRT-Environment folder. Otherwise, please adjust it. 
 
 ## Remote debugging
