@@ -1,13 +1,14 @@
-TOOLS=/home/jo/Dokumente/2015 - MRT-Environment-Script/GitHub repo/raspberrypi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/
-
 # Makefile
-all: first
+# Make sure that the workspace is located inside the MRT-Environment folder. 
+# Otherwise adjust the $P variable below to point to the arm tools directory.
+P="../../raspberrypi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/"
+all: HelloAssembler
  
-first: first.o
-	"$(TOOLS)arm-linux-gnueabihf-ld" -o $@ $+
+HelloAssembler: HelloAssembler.o
+	"$(P)arm-linux-gnueabihf-ld" -o $@ $+
  
-first.o : first.s
-	"$(TOOLS)arm-linux-gnueabihf-as" -g --gstabs+ -o $@ $<
+HelloAssembler.o: HelloAssembler.s
+	"$(P)arm-linux-gnueabihf-as" -g --gstabs+ -o $@ $<
  
 clean:
-	rm -vf first *.o
+	rm -vf HelloAssembler *.o

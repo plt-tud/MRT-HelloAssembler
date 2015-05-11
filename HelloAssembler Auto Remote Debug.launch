@@ -21,7 +21,7 @@
 <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="_start"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_ARGUMENTS" value="-o first.o"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="first"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="HelloAssembler"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="HelloAssembler"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
@@ -30,14 +30,14 @@
 <stringAttribute key="org.eclipse.debug.core.ATTR_GDBSERVER_PORT" value="12345"/>
 <stringAttribute key="org.eclipse.debug.core.ATTR_PRERUN_CMDS" value="chmod -R 777 /home/pi/remote-debugging"/>
 <booleanAttribute key="org.eclipse.debug.core.ATTR_SKIP_DOWNLOAD_TO_TARGET" value="false"/>
-<stringAttribute key="org.eclipse.debug.core.ATTR_TARGET_PATH" value="/home/pi/remote-debugging/first"/>
+<stringAttribute key="org.eclipse.debug.core.ATTR_TARGET_PATH" value="/home/pi/remote-debugging/HelloAssembler"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/HelloAssembler"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.debug.core.REMOTE_TCP" value="RaspberryPi"/>
+<stringAttribute key="org.eclipse.debug.core.REMOTE_TCP" value="Local"/>
 <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
 <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
 </listAttribute>
