@@ -17,23 +17,23 @@ The project is compiled using a makefile. To be able to compile, the $P variable
 ## Remote debugging
 Before this project can be debugged remotely, you need to do some preparations:
 
-## Step 1: Prepare the Raspberry Pi
+### Step 1: Prepare the Raspberry Pi
 
 Create the path */home/pi/remote-debugging/* on the RapberryPi.
      mkdir /home/pi/remote-debugging/ && chmod 777 /home/pi/remote-debugging/
      
-## Step 2: Create the remote system connection
+### Step 2: Create the remote system connection
 
   - In the eclipse menu, open *Window/Open Perspective/Other...*.
   - select *Remote System Explorer* (RSE).
   - Open the RSE perspective (upper right corner).
   - Define a connection to a remote system (first icon in the left panel).
   - In the new conncection assistant select *SSH Only*.
-  - Press *Next* and enter the IP-adresss of you Raspberry Pi in the *Host* field. Note: the Raspberry Pi must be on the same network (try pinging it using the *ping* command from a console to verify).
+  - Press *Next* and enter the IP-address of you Raspberry Pi in the *Host* field. Note: the Raspberry Pi must be on the same network (try pinging it using the *ping* command from a console to verify).
   - In the *Name* field enter e.g. 'RemoteRPI'.
   - Switch back to the *C/C++* perspective.
     
-## Step 3: Configure the run configuration
+### Step 3: Configure the run configuration
   - In the Eclipse menu, open *Run/Debug Configurations...*.
   - Select the *HelloAssembler Auto Remote Debug* configuration.
   - On the *Main* tab, in the *Connection:* field, choose the just created connection.
