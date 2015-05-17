@@ -52,7 +52,7 @@
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="HelloAssembler.null.587587198" name="HelloAssembler"/>
+		<project id="MRT1-AS_00_Hallo.null.587587198" name="MRT1-AS_00_Hallo"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope"/>
