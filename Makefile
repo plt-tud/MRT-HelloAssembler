@@ -2,13 +2,13 @@
 # Make sure that the workspace is located inside the MRT-Environment folder. 
 # Otherwise adjust the $P variable below to point to the arm tools directory.
 P="../../raspberrypi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/"
-all: HelloAssembler
+all: Hallo
  
-HelloAssembler: HelloAssembler.o
+Hallo: Hallo.o
 	"$(P)arm-linux-gnueabihf-ld" -o $@ $+
  
-HelloAssembler.o: HelloAssembler.s
+Hallo.o: Hallo.s
 	"$(P)arm-linux-gnueabihf-as" -g --gstabs+ -o $@ $<
  
 clean:
-	rm -vf HelloAssembler *.o
+	rm -vf Hallo *.o
